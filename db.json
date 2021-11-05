@@ -4,20 +4,56 @@
             "id": 0, 
             "type": "financial",
             "title": "change career",
+            "properties": " true or false",
             "deadline": "08/01/2022",
             "shortTerm": [
                 {
                     "type": "financial",
                     "title": "Update Linkedin",
-                    "deadline": "06/01/2022"
+                    "properties": " true or false",
+                    "deadline": "12/01/2022"
+
+                },
+                {
+                    "type": "financial",
+                    "title": "Graduate from Flatiron",
+                    "properties": " true or false",
+                    "deadline": "07/15/2022"
+                },
+                {
+                    "type": "financial",
+                    "title": "code daily",
+                    "properties": " true or false",
+                    "deadline": "07/15/2022"
+                }
+            ]
+
+         
+        },
+        {
+            "id": 1, 
+            "type": "",
+            "title": "change career",
+            "deadline": "08/01/2022",
+            "shortTerm": [
+                {
+                    "type": "financial",
+                    "title": "Update Linkedin",
+                    "deadline": "12/01/2022"
 
                 },
                 {
                     "type": "financial",
                     "title": "Graduate from Flatiron",
                     "deadline": "07/15/2022"
+                },
+                {
+                    "type": "financial",
+                    "title": "code daily",
+                    "deadline": "07/15/2022"
                 }
             ]
+
          
         }
     ]
