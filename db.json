@@ -2,8 +2,38 @@
     "longTermGoals": [
         {
             "id": 0, 
-            "type": "financial",
+            "type": "Career Goals",
             "title": "change career",
+            "properties": " true or false",
+            "deadline": "08/01/2022",
+            "shortTerm": [
+                {
+                    "type": "Career Goals",
+                    "title": "Update Linkedin",
+                    "properties": " true or false",
+                    "deadline": "12/01/2022"
+
+                },
+                {
+                    "type": "Career Goals",
+                    "title": "Graduate from Flatiron",
+                    "properties": " true or false",
+                    "deadline": "07/15/2022"
+                },
+                {
+                    "type": "Career Goals",
+                    "title": "Finish project 1 ",
+                    "properties": " true or false",
+                    "deadline": "11/14/2021"
+                }
+            ]
+
+         
+        },
+        {
+            "id": 1, 
+            "type": "Personal Develpoment",
+            "title": "",
             "properties": " true or false",
             "deadline": "08/01/2022",
             "shortTerm": [
@@ -15,41 +45,15 @@
 
                 },
                 {
-                    "type": "financial",
+                    "type": "Personal Develpoment",
                     "title": "Graduate from Flatiron",
                     "properties": " true or false",
                     "deadline": "07/15/2022"
                 },
                 {
-                    "type": "financial",
+                    "type": "Personal Develpoment",
                     "title": "code daily",
                     "properties": " true or false",
-                    "deadline": "07/15/2022"
-                }
-            ]
-
-         
-        },
-        {
-            "id": 1, 
-            "type": "",
-            "title": "change career",
-            "deadline": "08/01/2022",
-            "shortTerm": [
-                {
-                    "type": "financial",
-                    "title": "Update Linkedin",
-                    "deadline": "12/01/2022"
-
-                },
-                {
-                    "type": "financial",
-                    "title": "Graduate from Flatiron",
-                    "deadline": "07/15/2022"
-                },
-                {
-                    "type": "financial",
-                    "title": "code daily",
                     "deadline": "07/15/2022"
                 }
             ]
