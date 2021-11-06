@@ -11,7 +11,7 @@
                     "type": "Career Goals",
                     "title": "Update Linkedin",
                     "properties": " true or false",
-                    "deadline": "12/01/2022"
+                    "deadline": "12/01/2021"
 
                 },
                 {
@@ -32,29 +32,29 @@
         },
         {
             "id": 1, 
-            "type": "Personal Develpoment",
-            "title": "Learn a new language",
+            "type": "Personal Development",
+            "title": "Develop a Reading Habit",
             "properties": " true or false",
-            "deadline": "11/01/2022",
+            "deadline": "12/01/2022",
             "shortTerm": [
                 {
-                    "type": "Personal Develpoment",
-                    "title": "Purchase Rosseta Stone",
+                    "type": "Personal Development",
+                    "title": "Choose an intersting book",
                     "properties": " true or false",
                     "deadline": "12/01/2021"
 
                 },
                 {
-                    "type": "Personal Develpoment",
-                    "title": "Choose language",
+                    "type": "Personal Development",
+                    "title": "Read 20 mins a day",
                     "properties": " true or false",
                     "deadline": "12/01/2021"
                 },
                 {
-                    "type": "Personal Develpoment",
-                    "title": "Be done with half of course",
+                    "type": "Personal Development",
+                    "title": "Read a new book every month",
                     "properties": " true or false",
-                    "deadline": "05/25/2022"
+                    "deadline": "06/01/2022"
                 }
             ]
 
@@ -63,54 +63,54 @@
         {
             "id": 2,
             "type": "Financial",
-            "title": " ",
+            "title": "Save up 10K ",
             "properties":" true or false",
-            "deadline": "11/1/2023",
+            "deadline": "05/26/2022",
             "shortTerm":[
                 {
                     "type":"Financial",
-                    "title":" ",
+                    "title":"Create a budget ",
                     "properties":" true or false",
-                    "deadline":"11/1/2023"
+                    "deadline":"11/19/2021"
                 },
                 {
                     "type":"Financial",
-                    "title":" ",
+                    "title":"Saved 10% of check ",
                     "properties":" true or false",
-                    "deadline":"11/1/2023"
+                    "deadline":"11/19/2021"
                 },
                 {
                     "type":"Financial",
-                    "title":" ",
+                    "title":"Open up a second savings account ",
                     "properties":" true or false",
-                    "deadline":"11/1/2023"  
+                    "deadline":"12/1/2021"  
                 }
             ]
         },
         {
             "id":3,
-            "type": "Spirital",
-            "title": "",
+            "type": "Family",
+            "title": "Family Trip",
             "properties":" true or false",
-            "deadline" : "12/01/2021",
+            "deadline" : "07/25/2022",
             "shortTerm":[
                 {
-                    "type":"Spirital",
-                    "title":" ",
+                    "type":"Family",
+                    "title":"Plan out trip destination ",
                     "properties":" true or false",
                     "deadline":"12/01/2021"
                 },
                 {
-                    "type":"Spirital",
-                    "title":" ",
+                    "type":"Family",
+                    "title":"Save up $3000 for trip ",
                     "properties":" true or false",
-                    "deadline":"12/01/2021"
+                    "deadline":"02/01/2022"
                 },
                 {
-                    "type":"Spirital",
-                    "title":" ",
+                    "type":"Family",
+                    "title":"Book plane and hotel for trip ",
                     "properties":" true or false",
-                    "deadline":"12/01/2021"
+                    "deadline":"02/15/2022"
                 }
             ]
         }
