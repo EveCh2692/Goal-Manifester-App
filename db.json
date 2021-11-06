@@ -3,7 +3,7 @@
         {
             "id": 0, 
             "type": "Career Goals",
-            "title": "change career",
+            "title": "change Career",
             "properties": " true or false",
             "deadline": "08/01/2022",
             "shortTerm": [
@@ -33,32 +33,87 @@
         {
             "id": 1, 
             "type": "Personal Develpoment",
-            "title": "",
+            "title": "Learn a new language",
             "properties": " true or false",
-            "deadline": "08/01/2022",
+            "deadline": "11/01/2022",
             "shortTerm": [
                 {
-                    "type": "financial",
-                    "title": "Update Linkedin",
+                    "type": "Personal Develpoment",
+                    "title": "Purchase Rosseta Stone",
                     "properties": " true or false",
-                    "deadline": "12/01/2022"
+                    "deadline": "12/01/2021"
 
                 },
                 {
                     "type": "Personal Develpoment",
-                    "title": "Graduate from Flatiron",
+                    "title": "Choose language",
                     "properties": " true or false",
-                    "deadline": "07/15/2022"
+                    "deadline": "12/01/2021"
                 },
                 {
                     "type": "Personal Develpoment",
-                    "title": "code daily",
+                    "title": "Be done with half of course",
                     "properties": " true or false",
-                    "deadline": "07/15/2022"
+                    "deadline": "05/25/2022"
                 }
             ]
 
          
+        },
+        {
+            "id": 2,
+            "type": "Financial",
+            "title": " ",
+            "properties":" true or false",
+            "deadline": "11/1/2023",
+            "shortTerm":[
+                {
+                    "type":"Financial",
+                    "title":" ",
+                    "properties":" true or false",
+                    "deadline":"11/1/2023"
+                },
+                {
+                    "type":"Financial",
+                    "title":" ",
+                    "properties":" true or false",
+                    "deadline":"11/1/2023"
+                },
+                {
+                    "type":"Financial",
+                    "title":" ",
+                    "properties":" true or false",
+                    "deadline":"11/1/2023"  
+                }
+            ]
+        },
+        {
+            "id":3,
+            "type": "Spirital",
+            "title": "",
+            "properties":" true or false",
+            "deadline" : "12/01/2021",
+            "shortTerm":[
+                {
+                    "type":"Spirital",
+                    "title":" ",
+                    "properties":" true or false",
+                    "deadline":"12/01/2021"
+                },
+                {
+                    "type":"Spirital",
+                    "title":" ",
+                    "properties":" true or false",
+                    "deadline":"12/01/2021"
+                },
+                {
+                    "type":"Spirital",
+                    "title":" ",
+                    "properties":" true or false",
+                    "deadline":"12/01/2021"
+                }
+            ]
         }
+        
     ]
 }
