@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: radial-gradient(rgba(#1bcf0b, 0.5) 0%, transparent 70%), linear-gradient(#0b161e 40%, #202076 70%);
+    background: radial-gradient(rgba(#7600bf, 0.5) 0%, transparent 70%), linear-gradient(#0b161e 40%, #202076 70%);
     perspective: 700px;
     font-size: clamp(10px, 2vw, 20px);
 }
@@ -16,7 +16,7 @@ div.section {
     width: 60%;
     left: 20%;
     right: 20%;
-    background-color: rgb(18, 15, 231);
+    background-color: rgb(127, 214, 255);
     text-align: center;
     margin: 0 auto;
 }
