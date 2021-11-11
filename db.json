@@ -1,119 +1,120 @@
 {
-    "longTermGoals": [
+  "longTermGoals": [
+    {
+      "id": 0,
+      "type": "Career Goals",
+      "title": "change Career",
+      "completed": false,
+      "deadline": "08/01/2022",
+      "shortTerm": [
         {
-            "id": 0, 
-            "type": "Career Goals",
-            "title": "change Career",
-            "properties": " true or false",
-            "deadline": "08/01/2022",
-            "shortTerm": [
-                {
-                    "type": "Career Goals",
-                    "title": "Update Linkedin",
-                    "properties": " true or false",
-                    "deadline": "12/01/2021"
-
-                },
-                {
-                    "type": "Career Goals",
-                    "title": "Graduate from Flatiron",
-                    "properties": " true or false",
-                    "deadline": "07/15/2022"
-                },
-                {
-                    "type": "Career Goals",
-                    "title": "Finish project 1 ",
-                    "properties": " true or false",
-                    "deadline": "11/14/2021"
-                }
-            ]
-
-         
+          "type": "Career Goals",
+          "title": "Update Linkedin",
+          "completed": false,
+          "deadline": "12/01/2021"
         },
         {
-            "id": 1, 
-            "type": "Personal Development",
-            "title": "Develop a Reading Habit",
-            "properties": " true or false",
-            "deadline": "12/01/2022",
-            "shortTerm": [
-                {
-                    "type": "Personal Development",
-                    "title": "Choose an intersting book",
-                    "properties": " true or false",
-                    "deadline": "12/01/2021"
-
-                },
-                {
-                    "type": "Personal Development",
-                    "title": "Read 20 mins a day",
-                    "properties": " true or false",
-                    "deadline": "12/01/2021"
-                },
-                {
-                    "type": "Personal Development",
-                    "title": "Read a new book every month",
-                    "properties": " true or false",
-                    "deadline": "06/01/2022"
-                }
-            ]
-
-         
+          "type": "Career Goals",
+          "title": "Graduate from Flatiron",
+          "completed": false,
+          "deadline": "07/15/2022"
         },
         {
-            "id": 2,
-            "type": "Financial",
-            "title": "Save up 10K ",
-            "properties":" true or false",
-            "deadline": "05/26/2022",
-            "shortTerm":[
-                {
-                    "type":"Financial",
-                    "title":"Create a budget ",
-                    "properties":" true or false",
-                    "deadline":"11/19/2021"
-                },
-                {
-                    "type":"Financial",
-                    "title":"Saved 10% of check ",
-                    "properties":" true or false",
-                    "deadline":"11/19/2021"
-                },
-                {
-                    "type":"Financial",
-                    "title":"Open up a second savings account ",
-                    "properties":" true or false",
-                    "deadline":"12/1/2021"  
-                }
-            ]
-        },
-        {
-            "id":3,
-            "type": "Family",
-            "title": "Family Trip",
-            "properties":" true or false",
-            "deadline" : "07/25/2022",
-            "shortTerm":[
-                {
-                    "type":"Family",
-                    "title":"Plan out trip destination ",
-                    "properties":" true or false",
-                    "deadline":"12/01/2021"
-                },
-                {
-                    "type":"Family",
-                    "title":"Save up $3000 for trip ",
-                    "properties":" true or false",
-                    "deadline":"02/01/2022"
-                },
-                {
-                    "type":"Family",
-                    "title":"Book plane and hotel for trip ",
-                    "properties":" true or false",
-                    "deadline":"02/15/2022"
-                }
-            ]
+          "type": "Career Goals",
+          "title": "Finish project 1 ",
+          "completed": false,
+          "deadline": "11/14/2021"
         }
-        
-    ]
+      ]
+    },
+    {
+      "id": 1,
+      "type": "Personal Development",
+      "title": "Develop a Reading Habit",
+      "completed": false,
+      "deadline": "12/01/2022",
+      "shortTerm": [
+        {
+          "type": "Personal Development",
+          "title": "Choose an intersting book",
+          "completed": false,
+          "deadline": "12/01/2021"
+        },
+        {
+          "type": "Personal Development",
+          "title": "Read 20 mins a day",
+          "completed": false,
+          "deadline": "12/01/2021"
+        },
+        {
+          "type": "Personal Development",
+          "title": "Read a new book every month",
+          "completed": false,
+          "deadline": "06/01/2022"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Financial",
+      "title": "Save up 10K ",
+      "completed": false,
+      "deadline": "05/26/2022",
+      "shortTerm": [
+        {
+          "type": "Financial",
+          "title": "Create a budget ",
+          "completed": false,
+          "deadline": "11/19/2021"
+        },
+        {
+          "type": "Financial",
+          "title": "Saved 10% of check ",
+          "completed": false,
+          "deadline": "11/19/2021"
+        },
+        {
+          "type": "Financial",
+          "title": "Open up a second savings account ",
+          "completed": false,
+          "deadline": "12/1/2021"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Family",
+      "title": "Family Trip",
+      "completed": false,
+      "deadline": "07/25/2022",
+      "shortTerm": [
+        {
+          "type": "Family",
+          "title": "Plan out trip destination ",
+          "completed": false,
+          "deadline": "12/01/2021"
+        },
+        {
+          "type": "Family",
+          "title": "Save up $3000 for trip ",
+          "completed": false,
+          "deadline": "02/01/2022"
+        },
+        {
+          "type": "Family",
+          "title": "Book plane and hotel for trip ",
+          "completed": false,
+          "deadline": "02/15/2022"
+        }
+      ]
+    },
+    {
+      "type": "ghfdf",
+      "title": "fdfdf",
+      "completed": false,
+      "deadline": "2021-11-10",
+      "shortTerm": [],
+      "id": 4
+    }
+  ]
 }

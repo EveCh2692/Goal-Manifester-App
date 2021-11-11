@@ -16,17 +16,24 @@
         <h2>Goal Manifester</h2>
      </div>
 
-    <div class="section" id="background"></div>
+    <div class="section" id="background">
         <div id="header-img"></div>
-
-    <div class="section" id="discription"></div>
-       <p>The Goal Manifester App is focused on helping you organize your goals via long term goals and short term goals. The short term goals are your stepping stones to reach the top of the mountain. </p>
-
-    <div class="section" id="create goals"></div>
-    <input type="text" id="goals-input" placeholder="Enter in a goal">
     </div>
 
-    <div class="section" id="existing goals">
+    <div class="section" id="discription">
+       <p>The Goal Manifester App is focused on helping you organize your goals via long term goals and short term goals. The short term goals are your stepping stones to reach the top of the mountain. </p>
+    </div>
+
+    <div class="section" id="create-goals">
+        <form>
+            <input type= "text" id="goals-titles" placeholder= "Goal Type" required/>
+            <input type= "date" id= "goals-deadline"  required/>
+            <input type="text" id="goals-input" placeholder="Goal Title" required/>
+            <input type = "submit" value = "create goal"/>
+        </form>
+    </div>
+
+    <div class="section" id="existing-goals">
         <h2 id="goals-header">Existing Goals</h2>
         <ul id="goals-list"></ul>
     </div>
