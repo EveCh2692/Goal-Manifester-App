@@ -11,11 +11,15 @@ const displayGoal = (goalObject) => {
 
   const goalParagraph = document.createElement("h4");
   goalParagraph.textContent = `Goal Type: ${longTermGoals.type}, Deadline: ${longTermGoals.deadline}, `
+
+  ul.append(li, goalTitle, goalParagraph)
+  goalsUl().appendChild(ul)
+
   //create an li
   //give div a unique id
   //creat an h3 for goal title
-  //goal type, deadline and cpmpleted just paragraphs only use interpolation
-  //append h3 ans parapgraph to li
+  //goal type, deadline and complete just paragraphs only use interpolation
+  //append h3 and parapgraph to li
   //append li to ul
   
   
