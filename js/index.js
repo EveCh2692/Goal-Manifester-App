@@ -2,9 +2,10 @@ const goalsForm = () => document.querySelector("#create-goals form")
 const goalsUl = () => document.querySelector("#goals-list")
 
 const displayGoal = (goalObject) => {
-
+ 
   const li = document.createElement("li");
-  li.className="create new-goal";
+  li.id=`new-goal-${longTermGoals.id}`;
+  li.className = "new-goal"
    
   const goalTitle = document.createElement("h3");
   goalTitle.textContent = `Goal Title: ${longTermGoals.title}`
@@ -12,8 +13,8 @@ const displayGoal = (goalObject) => {
   const goalParagraph = document.createElement("h4");
   goalParagraph.textContent = `Goal Type: ${longTermGoals.type}, Deadline: ${longTermGoals.deadline}, `
 
-  ul.append(li, goalTitle, goalParagraph)
-  goalsUl().appendChild(ul)
+  li.append( goalTitle, goalParagraph)
+  goalsUl().append(li)
 
   //create an li
   //give div a unique id
