@@ -2,7 +2,15 @@ const goalsForm = () => document.querySelector("#create-goals form")
 const goalsUl = () => document.querySelector("#goals-list")
 
 const displayGoal = (goalObject) => {
-  
+
+  const li = document.createElement("li");
+  li.className="create new-goal";
+   
+  const goalTitle = document.createElement("h3");
+  goalTitle.textContent = `Goal Title: ${longTermGoals.title}`
+
+  const goalParagraph = document.createElement("h4");
+  goalParagraph.textContent = `Goal Type: ${longTermGoals.type}, Deadline: ${longTermGoals.deadline}, `
   //create an li
   //give div a unique id
   //creat an h3 for goal title
@@ -38,7 +46,7 @@ const confiObject = {
 
   fetch("http://localhost:3000/longTermGoals", confiObject)
     .then(response => response.json() )
-    .then(goalObject =>displayGoal(goalObject))
+    .then(goalObject => displayGoal(goalObject))
 
 
 
