@@ -1,7 +1,19 @@
 const goalsForm = () => document.querySelector("#create-goals form")
 const goalsUl = () => document.querySelector("#goals-list")
 
+const displayGoal = (goalObject) => {
+  
+  //create an li
+  //give div a unique id
+  //creat an h3 for goal title
+  //goal type, deadline and cpmpleted just paragraphs only use interpolation
+  //append h3 ans parapgraph to li
+  //append li to ul
+  
+  
 
+  
+}
 const handleSubmit = (e) => {
 e.preventDefault()
 const goalType = e.target[0].value
@@ -21,9 +33,16 @@ const confiObject = {
         "shortTerm": []
      })
     }
+
+   
+
   fetch("http://localhost:3000/longTermGoals", confiObject)
     .then(response => response.json() )
-    .then(goalObject => console.log(goalObject))
+    .then(goalObject =>displayGoal(goalObject))
+
+
+
+
 
 }
 
@@ -33,4 +52,3 @@ goalsForm().addEventListener("submit", handleSubmit )
 }
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
-
