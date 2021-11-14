@@ -1,20 +1,24 @@
 const goalsForm = () => document.querySelector("#create-goals form")
 const goalsUl = () => document.querySelector("#goals-list")
 
+
+
+
+
 const displayGoal = (goalObject) => {
- 
-  const li = document.createElement("li");
-  li.id=`new-goal-${longTermGoals.id}`;
-  li.className = "new-goal"
-   
-  const goalTitle = document.createElement("h3");
-  goalTitle.textContent = `Goal Title: ${longTermGoals.title}`
 
-  const goalParagraph = document.createElement("h4");
-  goalParagraph.textContent = `Goal Type: ${longTermGoals.type}, Deadline: ${longTermGoals.deadline}, `
+   const li = document.createElement("li")
+  li.id=`new-goal-${longTermGoals.id}`
 
-  li.append( goalTitle, goalParagraph)
+  const title = document.createElement("h3") 
+  title.textContent = longTermGoals.title
+    
+  const goalParagraph = document.createElement("goalParagraph")
+  goalParagraph.textContent = `Type: ${longTermGoals.type}-Deadline: ${longTermGoals.deadline}`
+  
+  li.append( title, goalParagraph)
   goalsUl().append(li)
+  
 
   //create an li
   //give div a unique id
@@ -23,10 +27,10 @@ const displayGoal = (goalObject) => {
   //append h3 and parapgraph to li
   //append li to ul
   
-  
-
-  
 }
+
+const
+
 const handleSubmit = (e) => {
 e.preventDefault()
 const goalType = e.target[0].value
