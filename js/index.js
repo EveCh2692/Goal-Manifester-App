@@ -1,5 +1,6 @@
 const goalsForm = () => document.querySelector("#create-goals form")
 const goalsUl = () => document.querySelector("#goals-list")
+const complete = () => document.querySelector("#complete")
 
 
 
@@ -68,12 +69,11 @@ e.target.reset()
   fetch("http://localhost:3000/longTermGoals", confiObject)
     .then(response => response.json() )
     .then(goalObject => displayGoal(goalObject))
-
-
-
-
-
 }
+
+
+
+  
 
 const fetchGoals= () => {
   fetch("http://localhost:3000/longTermGoals")
@@ -81,9 +81,16 @@ const fetchGoals= () => {
   .then(goalObjects => goalObjects.forEach(goalObject => displayGoal(goalObject)))
 
 }
+
+
 const handlePageLoaded = () => {
 goalsForm().addEventListener("submit", handleSubmit )
 fetchGoals()
 }
+
+//const handleClick = () => {
+//  complete().addEventListener("click", handleClick) 
+//}
+
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
