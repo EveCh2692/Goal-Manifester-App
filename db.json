@@ -3,7 +3,7 @@
     {
       "id": 0,
       "type": "Career Goals",
-      "title": "change Career",
+      "title": "Change Career",
       "completed": false,
       "deadline": "08/01/2022",
       "shortTerm": [
@@ -118,35 +118,12 @@
     },
     {
       "type": "Financial",
-      "title": "Save 10,000",
+      "title": "Double my income",
       "completed": false,
-      "deadline": "2021-11-23",
+      "deadline": "2022-08-22",
       "shortTerm": [],
       "id": 5
-    },
-    {
-      "type": "Personal",
-      "title": "Exercise",
-      "completed": false,
-      "deadline": "2021-11-17",
-      "shortTerm": [],
-      "id": 6
-    },
-    {
-      "type": "Financial",
-      "title": "Save 30,000",
-      "completed": false,
-      "deadline": "2024-07-15",
-      "shortTerm": [],
-      "id": 7
-    },
-    {
-      "type": "Personal",
-      "title": "get buff",
-      "completed": false,
-      "deadline": "2022-01-05",
-      "shortTerm": [],
-      "id": 8
     }
+  
   ]
 }

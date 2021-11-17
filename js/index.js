@@ -18,7 +18,10 @@ const displayGoal = (goalObject) => {
   
   const  hr = document.createElement("hr")
 
-  li.append( title, goalParagraph, hr)
+  const completeButton = document.createElement("p")
+  completeButton.textContent = `Complete: ${goalObject.completed}`
+
+  li.append( title, goalParagraph, hr,completeButton)
   goalsUl().append(li)
   
 
