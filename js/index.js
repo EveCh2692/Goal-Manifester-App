@@ -8,17 +8,26 @@ const goalsUl = () => document.querySelector("#goals-list")
 const displayGoal = (goalObject) => {
 
    const li = document.createElement("li")
-  li.id=`new-goal-${longTermGoals.id}`
+  li.id=`new-goal-${goalObject.id}`
 
   const title = document.createElement("h3") 
-  title.textContent = longTermGoals.title
+  title.textContent = goalObject.title
     
-  const goalParagraph = document.createElement("goalParagraph")
-  goalParagraph.textContent = `Type: ${longTermGoals.type}-Deadline: ${longTermGoals.deadline}`
+  const goalParagraph = document.createElement("p")
+  goalParagraph.textContent = `Type: ${goalObject.type}-Deadline: ${goalObject.deadline}`
   
-  li.append( title, goalParagraph)
+  const  hr = document.createElement("hr")
+
+  li.append( title, goalParagraph, hr)
   goalsUl().append(li)
   
+
+  //between 19 and 21 create new p with text completed and check button
+  //attach event click to button
+  //handleclick will be callback
+  //fire a patch fetch request to db.json
+  //change info on page to show completed 
+  //google html check mark
 
   //create an li
   //give div a unique id
@@ -29,7 +38,7 @@ const displayGoal = (goalObject) => {
   
 }
 
-const
+
 
 const handleSubmit = (e) => {
 e.preventDefault()
@@ -50,7 +59,7 @@ const confiObject = {
         "shortTerm": []
      })
     }
-
+e.target.reset()
    
 
   fetch("http://localhost:3000/longTermGoals", confiObject)
@@ -63,9 +72,15 @@ const confiObject = {
 
 }
 
+const fetchGoals= () => {
+  fetch("http://localhost:3000/longTermGoals")
+  .then(response => response.json() )
+  .then(goalObjects => goalObjects.forEach(goalObject => displayGoal(goalObject)))
 
+}
 const handlePageLoaded = () => {
 goalsForm().addEventListener("submit", handleSubmit )
+fetchGoals()
 }
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
