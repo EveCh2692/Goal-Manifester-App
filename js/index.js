@@ -103,7 +103,7 @@ const confiObject = {
 }
 fetch(`http://localhost:3000/longTermGoals/${goalId}`, confiObject)
     .then(response => response.json() )
-    //.then(json => e.target.checked = !e.target.checked)
+   
 }
 
 

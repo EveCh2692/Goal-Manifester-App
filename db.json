@@ -31,7 +31,7 @@
       "id": 1,
       "type": "Personal Development",
       "title": "Develop a Reading Habit",
-      "completed": false,
+      "completed": true,
       "deadline": "12/01/2022",
       "shortTerm": [
         {
@@ -119,18 +119,26 @@
     {
       "type": "Financial",
       "title": "Double my income",
-      "completed": true,
+      "completed": false,
       "deadline": "2022-08-22",
       "shortTerm": [],
       "id": 5
     },
     {
-      "type": "Personal",
-      "title": "Create a habit of waking up at 5am",
+      "type": "Financial",
+      "title": "Save 30,000",
       "completed": true,
-      "deadline": "2022-01-01",
+      "deadline": "2024-01-22",
       "shortTerm": [],
       "id": 6
+    },
+    {
+      "type": "Personal ",
+      "title": "run 10k",
+      "completed": false,
+      "deadline": "2023-01-22",
+      "shortTerm": [],
+      "id": 7
     }
   ]
 }
