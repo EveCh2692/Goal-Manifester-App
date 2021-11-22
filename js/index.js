@@ -1,6 +1,6 @@
 const goalsForm = () => document.querySelector("#create-goals form")
 const goalsUl = () => document.querySelector("#goals-list")
-const complete = () => document.querySelector("#complete")
+
 
 
 
@@ -20,25 +20,24 @@ const displayGoal = (goalObject) => {
   const  hr = document.createElement("hr")
 
   const completeButton = document.createElement("p")
-  completeButton.textContent = `Complete: ${goalObject.completed}`
+  completeButton.textContent = "Complete"
+   
+     const input = document.createElement("input")  
+     input.type = "checkbox"
+     input.id = `goal-complete-${goalObject.id}`
+  if (goalObject.completed) {
 
-  li.append( title, goalParagraph, hr,completeButton)
+  input.checked = true
+      
+  }else{
+
+ input.checked = false
+
+  }
+   input.addEventListener("click",(e) => handleClick(e,goalObject.completed)) 
+   completeButton.append(input)
+  li.append( title, goalParagraph,completeButton,hr)
   goalsUl().append(li)
-  
-
-  //between 19 and 21 create new p with text completed and check button
-  //attach event click to button
-  //handleclick will be callback
-  //fire a patch fetch request to db.json
-  //change info on page to show completed 
-  //google html check mark
-
-  //create an li
-  //give div a unique id
-  //creat an h3 for goal title
-  //goal type, deadline and complete just paragraphs only use interpolation
-  //append h3 and parapgraph to li
-  //append li to ul
   
 }
 
@@ -79,6 +78,7 @@ const fetchGoals= () => {
   fetch("http://localhost:3000/longTermGoals")
   .then(response => response.json() )
   .then(goalObjects => goalObjects.forEach(goalObject => displayGoal(goalObject)))
+  .catch(error => alert(error))
 
 }
 
@@ -88,9 +88,23 @@ goalsForm().addEventListener("submit", handleSubmit )
 fetchGoals()
 }
 
-//const handleClick = () => {
-//  complete().addEventListener("click", handleClick) 
-//}
+const handleClick = (e, completedBoolean) => {
+const goalId = e.target.id.split("-").pop()
+const confiObject = {
+  method:"PATCH",
+  headers: {
+    'Content-Type': 'application/json'
+    
+  },
+  body: JSON.stringify({
+    completed: !completedBoolean
+    
+  })
+}
+fetch(`http://localhost:3000/longTermGoals/${goalId}`, confiObject)
+    .then(response => response.json() )
+    //.then(json => e.target.checked = !e.target.checked)
+}
 
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
